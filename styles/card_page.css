@@ -1,0 +1,45 @@
+h1 {
+  text-align: center
+}
+
+.card-img img{
+  width: 75%;
+}
+
+.card-img {
+  text-align: center
+}
+
+.page-wrap {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.tptmtc {
+  text-align: center
+}
+
+
+
+
+/* Point at which we leave smaller screens and hit tablets */
+
+@media screen and (min-width:425px) {
+
+  
+
+}
+
+/* Width from when mobile menu triggers to a smaller width */
+@media screen and (min-width:650px) and (max-width:907px) {
+  
+  
+
+}
+
+/* Point at which screen changes to standard desktop menu */
+@media screen and (min-width:907px) {
+
+  
+  
+}

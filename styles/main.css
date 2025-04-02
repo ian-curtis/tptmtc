@@ -1,0 +1,204 @@
+:root {
+  font-family: Georgia, Garamond, 'Times New Roman', Times, serif;
+  background-color: #F0F0F0
+}
+
+/* Styles for mobile navigation menu */
+/* Everything here turns original menu into mobile */
+/* Removing this style will revert back to original menu (for desktops) */
+.nav-menu-mobile {
+  display: inline-flex;
+  flex-direction: column;
+  position: fixed;
+  transform: translateX(200%);
+  transition: transform 0s;
+  width: 50%;
+  /* padding: 7px 3px; */
+  z-index: 99;
+  background: black;
+  list-style: none;
+  text-align: center;
+  height: 300px;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 35px;
+}
+
+/* Move the menu from way off the page to viewable */
+.showMenu {
+  transform: translateY(0);
+  right: 0;
+  margin-top: 35px;
+}
+
+/* Style the hamburger and close icon */
+header a.icon {
+  background: black;
+  display: block;
+  float: right;
+  margin: auto;
+  margin-right: 5%;
+  color: #EA89DC;
+  cursor: pointer;
+}
+
+header {
+  background-color: black;
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  height: 15%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+}
+
+.nav-menu * {
+  display: inline;
+}
+
+/* By default, the hamburger and close icons are not displayed */
+.icon .close{
+  display: none;
+}
+
+.nav-menu li {
+  font-size: 22px;
+  margin: 20px;
+}
+
+.nav-menu li a {
+  color: #E3E3E3;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  color: #EA89DC;
+}
+
+header h1 a {
+  margin-left: 20px;
+  color: #099392;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+header h1 {
+  text-align: center
+}
+
+h1 a:hover {
+  color: #099392;
+  /* cursor: default; */
+}
+
+/* Bold header link for active page */
+.active-page {
+  font-weight: bold;
+  color: #EA89DC;
+}
+
+.skip-link {
+  background: black;
+  color: #e3e3e3;
+  font-weight: 700;
+  left: 50%;
+  padding: 4px;
+  position: absolute;
+  transform: translateY(-400%);
+  transition: 0.3s;
+}
+
+/* Move skip button to viewable window when active */
+.skip-link:focus {
+  transform: translateY(0%);
+}
+
+main {
+  padding-top: 25%
+}
+
+/* Footer */
+footer {
+  background-color: #8a8a8a;
+  padding: 10px;
+  text-align: center;
+}
+
+/* The text explaining that this site is by me / copyright and all that */
+.footer-intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  padding-top: 7px;
+  text-align: center;
+}
+
+.footer-links ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+
+/* Point at which we leave smaller screens and hit tablets */
+
+@media screen and (min-width:426px) {
+  
+  header h1 a {
+    font-size: 40px;
+  }
+
+  main {
+    padding-top: 10%
+  }
+  
+
+}
+
+/* Width from when mobile menu triggers to a smaller width */
+@media screen and (min-width:650px) and (max-width:907px) {
+  
+  .nav-menu-mobile {   
+    width: 40%;
+
+  }
+
+}
+
+/* Point at which screen changes to standard desktop menu */
+@media screen and (min-width:907px) {
+  
+  header a.icon {
+    display: none;
+  }
+
+  header {
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 25%;
+    display: inline;
+    text-align: center;
+    justify-content: space-between;
+    z-index: 99;
+  }
+
+  header h1 a {
+    font-size: 58px
+  }
+
+  .nav-menu li {
+    font-size: 30px
+  }
+
+  
+  
+}
