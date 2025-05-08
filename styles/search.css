@@ -1,0 +1,14 @@
+h2 {
+  text-align: center
+}
+
+.brand-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.brand {
+  width: 100%;
+  text-align: center;
+}
