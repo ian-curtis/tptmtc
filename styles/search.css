@@ -1,0 +1,35 @@
+h2 {
+  text-align: center
+}
+
+.brand-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.brand {
+  width: 100%;
+  text-align: center;
+}
+
+form {
+  background-color: #C70039;
+  width: 300px;
+  height: 44px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+input {
+  all: unset;
+  color: #000000;
+  width: 70%;
+  padding: 10px;
+}
+
+::placeholder {
+  color: #000000;
+}

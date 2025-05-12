@@ -4,10 +4,15 @@ h1 {
 
 .card-img img{
   width: 75%;
+  
 }
 
 .card-img {
   text-align: center
+}
+
+.img-credit {
+  font-size: 13px
 }
 
 .page-wrap {
@@ -19,27 +24,57 @@ h1 {
   text-align: center
 }
 
+.basic-card-info {
+  padding-bottom: 10%;
+  text-align: center;
+}
 
 
 
 /* Point at which we leave smaller screens and hit tablets */
 
-@media screen and (min-width:425px) {
+@media screen and (min-width:768px) {
 
-  
-
-}
-
-/* Width from when mobile menu triggers to a smaller width */
-@media screen and (min-width:650px) and (max-width:907px) {
-  
-  
+  .card-img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 }
 
 /* Point at which screen changes to standard desktop menu */
 @media screen and (min-width:907px) {
 
+  main {
+    padding-top: 20%
+  }
+
+  header {
+    height: 20%
+  }
+
   
+  
+}
+
+@media screen and (min-width:1200px) {
+
+  main {
+    padding-top: 17%
+  }
+
+  header {
+    height: 25%;
+  }
+  
+}
+
+@media screen and (min-width:1400px) {
+
+  main {
+    padding-top: 13%
+  }
+   
   
 }
