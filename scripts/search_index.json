@@ -1,0 +1,19 @@
+[
+  {
+    "id": 0,
+    "brand": "topps",
+    "series": "series1",
+    "player": "tigers team",
+    "card_number": "34",
+    "player_team": "detroit tigers",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "August",
+    "play_day": "14",
+    "teams": ["Detroit Tigers", "Seattle Mariners"],
+    "inning_topbot": "bottom",
+    "inning": "10",
+    "play_keywords": ["walk off", "double", "Akil Baddoo"],
+    "url": "https://www.tptmtc.com/cards/topps/series1/034_tigers_team.html"
+  }
+]

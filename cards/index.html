@@ -21,6 +21,7 @@
   <link rel="stylesheet" href="../styles/search.css">
   <script src="https://kit.fontawesome.com/a4e75b7167.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/minisearch@7.1.2/dist/umd/index.min.js"></script>
   <title>Search TPTMTC</title>
 </head>
 
@@ -59,9 +60,12 @@
       ...You can try the box below that does a Google site search....
     </p>
 
-    <p>
-      TBD
-    </p>
+    <form id="form" role="search">
+      <input type="search" id="query" name="q"
+       placeholder="Search Cards"
+       aria-label="Search through cards on currently on the site">
+      <button>Search</button>
+    </form>
 
     <p>
       ...Or you can use the following navigation links to kind of find your way there.
