@@ -12,16 +12,16 @@
   <meta property="og:url" content="https://www.tptmtc.com" />
   <meta property="og:site_name" content="The Play That Made The Card" />
   <meta property="og:determiner" content="the" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" sizes="180x180" href="../apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="..//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="..//favicon-16x16.png">
+  <link rel="manifest" href="..//site.webmanifest">
   <link rel="stylesheet" href="../styles/main.css">
   <link rel="stylesheet" href="../styles/about.css">
   <link rel="stylesheet" href="../styles/search.css">
   <script src="https://kit.fontawesome.com/a4e75b7167.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/minisearch@7.1.2/dist/umd/index.min.js"></script>
+  
   <title>Search TPTMTC</title>
 </head>
 
@@ -48,7 +48,7 @@
   </header>
 
 
-  <main id="main">
+  <main class="main" id="main">
 
     <h1>Search for Your Card</h1>
 
@@ -56,16 +56,127 @@
       Ok so it's not really a true search. I don't have the skills to build in a search engine. You have two options right now...
     </p>
 
-    <p>
-      ...You can try the box below that does a Google site search....
-    </p>
+    <div class="search-wrap">
+      <div class="search">
+        <input type="text" id="query"
+        placeholder="Type Here to Search"
+        aria-label="Search through cards on currently on the site">
+        <!-- <button onclick="searchCards()"><i class="fa-solid fa-magnifying-glass"></i></button> -->
 
-    <form id="form" role="search">
-      <input type="search" id="query" name="q"
-       placeholder="Search Cards"
-       aria-label="Search through cards on currently on the site">
-      <button>Search</button>
-    </form>
+      </div>
+
+      <details class="filters">
+        <summary>Filter Results</summary>
+        <form class="options">
+          <div>
+            <label>
+              Team on Card:
+              <select name="team_filter">
+                <option value="all">All Teams</option>
+                <!-- <option value="arizona diamondbacks">Arizona Diamondbacks</option> -->
+                <!-- <option value="atlanta braves">Atlanta Braves</option> -->
+                <!-- <option value="baltimore orioles">Baltimore Orioles</option> -->
+                <!-- <option value="boston red sox">Boston Red Sox</option> -->
+                <!-- <option value="chicago cubs">Chicago Cubs</option> -->
+                <!-- <option value="chicago white sox">Chicago White Sox</option> -->
+                <!-- <option value="cincinnati reds">Cincinnati Reds</option> -->
+                <!-- <option value="cleveland guardians">Cleveland Guardians</option> -->
+                <!-- <option value="clevaland indians">Cleveland Indians</option> -->
+                <!-- <option value="colorado rockies">Colorado Rockies</option> -->
+                <option value="detroit tigers">Detroit Tigers</option>
+                <!-- <option value="houston astros">Houston Astros</option> -->
+                <!-- <option value="kansas city royals">Kansas City Royals</option> -->
+                <!-- <option value="los angeles angels">Los Angeles Angels</option> -->
+                <!-- <option value="los angeles dodgers">Los Angeles Dodgers</option> -->
+                <!-- <option value="miami marlins">Miami Marlins</option> -->
+                <!-- <option value="milwaukee brewers">Milwaukee Brewers</option> -->
+                <!-- <option value="minnesota twins">Minnesota Twins</option> -->
+                <!-- <option value="new york mets">New York Mets</option> -->
+                <!-- <option value="new york yankees">New York Yankees</option> -->
+                <!-- <option value="oakland athletics">Oakland Athletics</option> -->
+                <!-- <option value="athletics">Athletics</option> -->
+                <!-- <option value="pittsburgh pirates">Pittsburgh Pirates</option> -->
+                <!-- <option value="san diego padres">San Diego Padres</option> -->
+                <!-- <option value="san francisco giants">San Francisco Giants</option> -->
+                <!-- <option value="seattle mariners">Seattle Mariners</option> -->
+                <!-- <option value="st. louis cardinals">St. Louis Cardinals</option> -->
+                <!-- <option value="tampa bay rays">Tampa Bay Rays</option> -->
+                <!-- <option value="texas rangers">Texas Rangers</option> -->
+                <!-- <option value="toronto blue jays">Toronto Blue Jays</option> -->
+                <option value="washington nationals">Washington Nationals</option>
+                <!-- <option value="multiple">Multiple Teams</option> -->
+              </select>
+            </label>
+            <br>
+            <label>
+              Card Brand:
+              <select name="brand_filter">
+                <option value="all">All Brands</option>
+                <option value="topps">Topps</option>
+                <!-- <option value="bowman">Bowman</option> -->
+                <!-- <option value="panini">Panini</option> -->
+                <!-- <option value="upper deck">Upper Deck</option> -->
+                <!-- <option value="donruss">Donruss</option> -->
+              </select>
+            </label>
+            <br>
+            <label>
+              Year of the Play:
+              <select name="play_year_filter">
+                <option value="all">All Years</option>
+                <option value="2024">2024</option>
+                
+              </select>
+            </label>
+            <br>
+            <label>
+              Month of the Play:
+              <select name="play_month_filter">
+                <option value="all">All Months</option>
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+                
+              </select>
+            </label>
+            <br>
+            <label>
+              Inning of the Play:
+              <select name="play_inning_filter">
+                <option value="all">All Innings</option>
+                <option value="1">1st</option>
+                <option value="2">2nd</option>
+                <option value="3">3rd</option>
+                <option value="4">4th</option>
+                <option value="5">5th</option>
+                <option value="6">6th</option>
+                <option value="7">7th</option>
+                <option value="8">8th</option>
+                <option value="9">9th</option>
+                
+              </select>
+            </label>
+          </div>
+        </form>
+      </details>
+
+    <!-- </div>
+      <ul class="suggestion_list"></ul>
+    </div> -->
+
+    <div class="results" id="results">
+      <h2 class="results_header">Results!</h2>
+      <ul class="results_list"></ul>
+    </div>
 
     <p>
       ...Or you can use the following navigation links to kind of find your way there.
@@ -81,7 +192,8 @@
       <a class="brand">Donruss</a>
     </div>
     
-
+    <script src="https://cdn.jsdelivr.net/npm/minisearch@7.1.2/dist/umd/index.min.js"></script>
+    <script type="text/javascript" src="../scripts/search.js"></script>
    
   </main>
 
