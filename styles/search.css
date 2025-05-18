@@ -5,16 +5,26 @@ h2 {
 .brand-wrap {
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .brand {
+  display: flex;
+  width: 50%;
+  border: 2px solid black;
+  margin: 5px auto 5px auto;
+  font-size: 20px;
+  background: #e3e3e3;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand div {
   width: 100%;
-  text-align: center;
+  height: 100%;
 }
 
 .search {
-  background-color: #C70039;
+  background-color: #231942;
   opacity: 90%;
   width: 90%;
   height: 44px;
@@ -38,37 +48,57 @@ input {
 }
 
 details {
-  display:none
+  display: none
 }
 
 
+.post-results {
+  margin-top: 20px
+}
 
 
 @media screen and (min-width:708px) {
 
-  form {
+  .search {
     width: 75%
   }
 
+  main p {
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10px
+  }
+
+  main ul {
+    margin-left: 10%
+  }
+
+  .results {
+    width: 75%;
+    margin: auto;
+  }
 }
 
-@media screen and (min-width:908px) {
+@media screen and (min-width:907px) {
 
   main {
     padding-top: 20%;
   }
 
   p {
-    padding-bottom: 5px;
     padding-top: 5px;
   }
 
-  form {
+  .search {
     width: 60%;
     
   }
 
-  .form-wrap {
+  .results {
+    width: 50%
+  }
+
+  .search-wrap {
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -81,9 +111,31 @@ details {
     padding-top: 13%;
   }
 
-  form {
+  .search {
     width: 50%;
   }
+
+  main p {
+    width: 50%
+  }
+
+  main ul {
+    margin-left: 25%
+  }
+
+  .brand {
+    width: 30%;
+  }
+
+  .brand-wrap {
+    width: 60%;
+    margin: auto;
+  }
+
+  .results {
+    width: 40%
+  }
+
 
 }
 
@@ -106,6 +158,10 @@ dd:after {
   content: '';
   display: block;
 }
+
+.results_header {
+  display: none
+}
   
 .results_list {
   margin: 1em 0 0 0;
@@ -115,44 +171,18 @@ dd:after {
   position: relative;
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
-}
-
-.results_list:before {
-  content: '';
-  display: block;
-  position: sticky;
-  z-index: 10;
-  left: 0;
-  right: 0;
-  top: -1px;
-  width: 100%;
-  height: 0.7em;
-  margin-bottom: -0.7em;
-  background: linear-gradient(white, rgba(255, 255, 255, 0));
-}
-.results_list:after {
-  content: '';
-  display: block;
-  position: sticky;
-  z-index: 10;
-  left: 0;
-  right: 0;
-  bottom: -1px;
-  width: 100%;
-  height: 0.7em;
-  margin-bottom: -0.7em;
-  background: linear-gradient(rgba(255, 255, 255, 0), white);
+  background: hsl(0, 0%, 89%);
 }
 
 .card {
-  border-bottom: 1px solid #ccc;
-  padding: 0.7em 0 1em 0;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px
 }
 .card:last-child {
   border-bottom: none;
+  padding-bottom: none
 }
 .card h3 {
-  margin-top: 0;
-  margin-bottom: 0.15em;
+ text-align: center
 }
 

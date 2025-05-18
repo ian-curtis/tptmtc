@@ -3,7 +3,7 @@
     "id": 0,
     "brand": "topps",
     "series": "series 1",
-    "player": "tigers team",
+    "player": "tigers team card",
     "card_number": "34",
     "player_team": "detroit tigers",
     "print_year": "2025",
@@ -24,13 +24,13 @@
     "card_number": "74",
     "player_team": "washington nationals",
     "print_year": "2025",
-    "play_year": "unknown",
-    "play_month": "unknown",
-    "play_day": "unknown",
-    "teams": ["washington nationals", "unknown"],
-    "inning_topbot": "unknown",
-    "inning": "unknown",
-    "play_keywords": ["unknown"],
-    "url": "none"
+    "play_year": "2024",
+    "play_month": "September",
+    "play_day": "3",
+    "teams": ["washington nationals", "tigers"],
+    "inning_topbot": "top",
+    "inning": "3",
+    "play_keywords": ["hit"],
+    "url": "https://www.google.com"
   }
 ]

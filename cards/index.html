@@ -53,18 +53,17 @@
     <h1>Search for Your Card</h1>
 
     <p>
-      Ok so it's not really a true search. I don't have the skills to build in a search engine. You have two options right now...
+      Hey, look! Here's a search bar! You can use it to search for a card. See search tips below. 
     </p>
 
     <div class="search-wrap">
       <div class="search">
         <input type="text" id="query"
         placeholder="Type Here to Search"
-        aria-label="Search through cards on currently on the site">
-        <!-- <button onclick="searchCards()"><i class="fa-solid fa-magnifying-glass"></i></button> -->
-
+        aria-label="Search through cards indexed on the site">
       </div>
 
+      <!-- currently display: none until I find time to make it work -->
       <details class="filters">
         <summary>Filter Results</summary>
         <form class="options">
@@ -169,27 +168,48 @@
         </form>
       </details>
 
-    <!-- </div>
-      <ul class="suggestion_list"></ul>
-    </div> -->
 
     <div class="results" id="results">
-      <h2 class="results_header">Results!</h2>
+      <h2 class="results_header">Here are your results!</h2>
       <ul class="results_list"></ul>
     </div>
 
-    <p>
-      ...Or you can use the following navigation links to kind of find your way there.
+    <h2>Search Tips</h2>
+    <p class="post-results">
+      Currently, you can type in queries for the following data points:
+      <ul>
+        <li>card brand</li>
+        <li>series name</li>
+        <li>player name</li>
+        <li>card number</li>
+        <li>player team</li>
+        <li>year card was printed</li>
+        <li>month play occurred</li>
+        <li>team(s) depicted on the card or playing during the game on the card</li>
+        <li>inning</li>
+        <li>any other keywords related to a play ("walkoff", "double")</li>
+      </ul>
+      
     </p>
+
+    <p>
+      Once you type in enough information, results will automatically appear below the search bar. It's best to type in the full word (or nearly the full word) for the most results. For example, even though typing "top" might bring up results, you'll get more results if you type the full "topps". Enjoy!
+    </p>
+
+    <p>
+      (Search powered by the Javascript library Minisearch. Great stuff!)
+    </p>
+
+    <p>...Or you can use the following navigation links to explore in a different way.</p>
 
     <h2>Major Card Brands</h2>
 
     <div class="brand-wrap">
-      <a class="brand">Topps</a>
-      <a class="brand">Bowman</a>
-      <a class="brand">Panini</a>
-      <a class="brand">Upper Deck</a>
-      <a class="brand">Donruss</a>
+      <a class="brand"><div><p>Topps</p></div></a>
+      <a class="brand"><div><p>Bowman</p></div></a>
+      <a class="brand"><div><p>Panini</p></div></a>
+      <a class="brand"><div><p>Upper Deck</p></div></a>
+      <a class="brand"><div><p>Donruss</p></div></a>
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/minisearch@7.1.2/dist/umd/index.min.js"></script>
