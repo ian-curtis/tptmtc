@@ -105,10 +105,16 @@ details {
 
 }
 
+@media screen and (min-width:1024px) {
+  main {
+    padding-top: 16%;
+  }
+}
+
 @media screen and (min-width:1200px) {
 
   main {
-    padding-top: 13%;
+    padding-top: 14%;
   }
 
   .search {
@@ -137,6 +143,16 @@ details {
   }
 
 
+}
+
+@media screen and (orientation:portrait) and (min-width:1024px) {
+  main ul {
+    margin-left: 13%
+  }
+
+  main {
+    padding-top: 20%
+  }
 }
 
 

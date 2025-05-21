@@ -1,0 +1,98 @@
+h2 {
+  text-align: center;
+}
+
+.boxes {
+  text-align: center;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.one-box:first-child {
+  margin-top: 15px;
+}
+
+.one-box {
+  margin-bottom: 60px;
+}
+
+.boxes li:last-child {
+  margin-bottom: 0px
+}
+
+.boxes a {
+  border: 3px solid black;
+  padding: 25px;
+  background: #e3e3e3;
+}
+
+.series-list {
+  text-align: center;
+}
+
+main ol {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  main p {
+    width: 75%;
+    margin: auto;
+  }
+
+  .boxes {
+    flex-direction: row;
+    padding-top: 40px;
+    justify-content: space-around;
+    width: 60%;
+    margin: auto;
+  }
+
+  .one-box:first-child {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (orientation:portrait) and (min-width: 768px) {
+  main {
+    padding-top: 20%
+  }
+
+  .boxes li {
+    flex-direction: row;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding-top: 15%;
+  }
+
+  main p {
+    width: 60%
+  }
+}
+
+@media screen and (orientation:portrait) and (min-width: 1024px) {
+  main {
+    padding-top: 22%
+  }
+
+  .boxes {
+    width: 75%
+  }
+}
+
+@media screen and (min-width:1500px) {
+  main {
+    padding-top: 12%;
+    font-size: 24px;
+  }
+}

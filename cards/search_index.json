@@ -15,22 +15,5 @@
     "inning": "10",
     "play_keywords": ["walk off", "double", "akil baddoo"],
     "url": "https://www.tptmtc.com/cards/topps/series1/034_tigers_team.html"
-  },
-  {
-    "id": 1,
-    "brand": "topps",
-    "series": "series 1",
-    "player": "dylan crews",
-    "card_number": "74",
-    "player_team": "washington nationals",
-    "print_year": "2025",
-    "play_year": "2024",
-    "play_month": "September",
-    "play_day": "3",
-    "teams": ["washington nationals", "tigers"],
-    "inning_topbot": "top",
-    "inning": "3",
-    "play_keywords": ["hit"],
-    "url": "https://www.google.com"
   }
 ]
