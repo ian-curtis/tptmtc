@@ -1,9 +1,13 @@
+// Thank you to the minisearch library for this capability. It wasn't terribly difficult to implement, espeically given I have VERY little experience with JS. 
+// Code here was copy-paste-modified from the code used to make https://lucaong.github.io/minisearch/demo/
+
 const $searchInput = document.querySelector('.search input')
 const $search = document.querySelector('.search')
 const $cardList = document.querySelector('.results .results_list')
 const $suggestionList = document.querySelector('.suggestion_list')
 const $main = document.querySelector('.search-wrap')
 const $options = document.querySelector('.filters form')
+const $resultsHeader = document.querySelector('.results_header')
 
 const miniSearch = new MiniSearch({
   fields: ['brand', 'series', 'player', 'card_number', 'player_team', 'print_year', 'play_month', 'teams', 'inning_topbot', 'inning', 'play_keywords'],
@@ -24,7 +28,10 @@ $searchInput.addEventListener('input', (event) => {
 
   const results = (query.length > 1) ? getSearchResults(query) : []
   
+  if (results.length >= 1) $resultsHeader.style.display = "block"
   renderSearchResults(results)
+
+  
   
 
 })
@@ -63,7 +70,7 @@ const renderSearchResults = (results) => {
       <dl>
         <dt>Card Number:</dt> <dd>${card_number}</dd>
         <dt>Team:</dt> <dd>${capitalize(player_team)}</dd>
-        <dt><a href="${url}">View Card Page</dt> <dd></dd>
+        <dt><a href="${url}">View Card Page</a></dt><dd></dd>
       </dl>
     </li>`
   }).join('\n')

@@ -1,0 +1,47 @@
+.baseballs img {
+  width: 75%;
+}
+
+.baseball-wrap {
+  text-align: center
+}
+
+.n_cards {
+  font-size: 50px;
+  color: #b00000;
+}
+
+main {
+  padding-top: 40%;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width:768px) {
+  .baseballs img {
+    width: 50%;
+  }
+
+  main {
+    padding-top: 20%
+  }
+
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+  .baseballs img {
+    width: 30%;
+  }
+
+  main {
+    padding-top: 15%
+  }
+
+  main p {
+    width: 60%;
+    margin: auto;
+  }
+}

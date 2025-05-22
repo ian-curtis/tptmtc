@@ -3,8 +3,8 @@
 // Define some variables
 const menu = document.querySelector(".nav-menu-mobile");
 const menuItems = document.querySelectorAll(".nav-item");
-const hamburger= document.querySelector(".icon");
-const closeIcon= document.querySelector(".close");
+const hamburger = document.querySelector(".icon");
+const closeIcon = document.querySelector(".close");
 const menuIcon = document.querySelector(".burger");
 
 function toggleMenu() {

@@ -3,21 +3,91 @@ main {
   padding-bottom: 15px;
 }
 
+main p {
+  padding-bottom: 15px
+}
+
+dl {
+  text-align: center;
+  font-size: 20px
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+}
+
+dd {
+  margin:0;
+  padding-bottom: 10px
+}
+
+dd:last-child {
+  padding-bottom: 0px; 
+}
+
+@media screen and (max-width:767px) {
+  main p {
+    font-size: 16px;
+  }
+
+  dl {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  main p {
+    width: 80%;
+    margin: auto;
+  }
+
+  main ul {
+    margin-left: 10%;
+  }
+}
+
+@media screen and (orientation:portrait) and (min-width:768px) {
+  main {
+    padding-top: 23%
+  }
+}
+
+
+
+@media screen and (min-width:1200px) {
+  main {
+    padding-top: 13%;
+  }
+}
+
 @media screen and (min-width:1024px) {
 
   main p{
-    width: 70%;
+    width: 60%;
     margin: auto;
   }
 
   main {
     padding-top: 16%;
   }
+
+  main ul {
+    margin-left: 15%;
+  }
   
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (orientation:portrait) and (min-width:1024px) {
+  main {
+    padding-top: 23%
+  }
+}
+
+@media screen and (min-width: 1400px) {
+
   main {
     padding-top: 13%;
+    font-size: 18px
   }
 }
