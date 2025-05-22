@@ -14,6 +14,40 @@
     "inning_topbot": "bottom",
     "inning": "10",
     "play_keywords": ["walk off", "double", "akil baddoo"],
-    "url": "https://www.tptmtc.com/cards/topps/series1/034_tigers_team.html"
+    "url": "https://www.tptmtc.com/cards/topps/series1/034-tigers-team-card.html"
+  },
+  {
+    "id": 1,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "clayton kershaw (golden mirror)",
+    "card_number": "146",
+    "player_team": "los angeles dodgers",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "october",
+    "play_day": "30",
+    "teams": ["los angeles dodgers", "new york yankees"],
+    "inning_topbot": "none",
+    "inning": "none",
+    "play_keywords": ["world series", "celebrate"],
+    "url": "https://www.tptmtc.com/cards/topps/series1/146-clayton-kershaw-gm.html"
+  },
+  {
+    "id": 2,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "tigers team card (golden mirror)",
+    "card_number": "34",
+    "player_team": "detroit tigers",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "october",
+    "play_day": "2",
+    "teams": ["detroit tigers", "houston astros"],
+    "inning_topbot": "none",
+    "inning": "none",
+    "play_keywords": ["team photo", "wild card"],
+    "url": "https://www.tptmtc.com/cards/topps/series1/034-tigers-team-card-gm.html"
   }
 ]

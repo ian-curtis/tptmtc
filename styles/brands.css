@@ -39,6 +39,20 @@ main ol {
   margin-bottom: 20px;
 }
 
+main ol li {
+  padding-bottom: 5px
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 425px) {
+  .cards-list {
+    align-items: center;
+  }
+}
 
 @media screen and (min-width: 768px) {
   main p {
@@ -78,6 +92,8 @@ main ol {
   main p {
     width: 60%
   }
+
+
 }
 
 @media screen and (orientation:portrait) and (min-width: 1024px) {

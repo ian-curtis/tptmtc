@@ -21,11 +21,11 @@ h1 {
 }
 
 .tptmtc {
-  text-align: center
+  text-align: center;
 }
 
 .basic-card-info {
-  padding-bottom: 10%;
+  /* padding-bottom: 10%; */
   text-align: center;
 }
 
@@ -37,6 +37,12 @@ h1 {
 
   .card-img {
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  main p {
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -62,6 +68,12 @@ h1 {
 
   main {
     padding-top: 17%
+  }
+
+  main p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   header {
