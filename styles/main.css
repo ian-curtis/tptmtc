@@ -122,6 +122,10 @@ main {
   padding-top: 25%;
 }
 
+abbr {
+  text-decoration: none;
+}
+
 main p {
   text-align: center;
   font-size: 20px;
