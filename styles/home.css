@@ -43,5 +43,11 @@ main {
   main p {
     width: 60%;
     margin: auto;
+    padding-bottom: 10px;
+  }
+
+  .n_cards {
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
 }
