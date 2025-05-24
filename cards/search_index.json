@@ -168,5 +168,22 @@
     "inning": "9",
     "play_keywords": ["home run", "walk off", "mookie betts"],
     "url": "https://www.tptmtc.com/cards/topps/2025/series1/159-phillies-team-card.html"
+  },
+  {
+    "id": 10,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "rays team card",
+    "card_number": "294",
+    "player_team": "tampa bay rays",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "august",
+    "play_day": "16",
+    "teams": ["tampa bay rays", "arizona diamondbacks"],
+    "inning_topbot": "bottom",
+    "inning": "9",
+    "play_keywords": ["single", "error", "brandon lowe"],
+    "url": "https://www.tptmtc.com/cards/topps/2025/series1/294-rays-team-card.html"
   }
 ]
