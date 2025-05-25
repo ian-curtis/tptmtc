@@ -64,20 +64,25 @@ h1 {
   
 }
 
-@media screen and (min-width:1200px) {
-
+@media screen and (min-width:1024px) {
+  header {
+    height: 25%
+  }
   main {
     padding-top: 17%
   }
+
+  .portrait {
+    width: 40%
+  }
+}
+
+@media screen and (min-width:1200px) {
 
   main p {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  header {
-    height: 25%;
   }
   
 }
@@ -86,6 +91,10 @@ h1 {
 
   main {
     padding-top: 13%
+  }
+
+  .portrait {
+    width: 30%
   }
    
   
