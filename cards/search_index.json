@@ -321,5 +321,39 @@
     "inning": "7",
     "play_keywords": ["strikeout"],
     "url": "https://www.tptmtc.com/cards/topps/2025/series1/073-luis-castillo.html"
+  },
+  {
+    "id": 19,
+    "brand": "topps",
+    "series": "series 1 anniversary",
+    "player": "nacho alvarez jr",
+    "card_number": "T90-79",
+    "player_team": "atlanta braves",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "july",
+    "play_day": "26",
+    "teams": ["atlanta braves", "new york mets"],
+    "inning_topbot": "top",
+    "inning": "5",
+    "play_keywords": ["lineout"],
+    "url": "https://www.tptmtc.com/cards/topps/2025/anniversary/t90-79-nacho-alvarez-jr.html"
+  },
+  {
+    "id": 20,
+    "brand": "topps",
+    "series": "update series chrome anniversary",
+    "player": "colt keith",
+    "card_number": "T89CU-7",
+    "player_team": "detroit tigers",
+    "print_year": "2024",
+    "play_year": "2024",
+    "play_month": "march",
+    "play_day": "28",
+    "teams": ["detroit tigers", "chicago white sox"],
+    "inning_topbot": "top",
+    "inning": "7",
+    "play_keywords": ["flyout"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/anniversary-update-chrome/t89cu-7-colt-keith.html"
   }
 ]
