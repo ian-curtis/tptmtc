@@ -355,5 +355,22 @@
     "inning": "7",
     "play_keywords": ["flyout"],
     "url": "https://www.tptmtc.com/cards/topps/2024/anniversary-update-chrome/t89cu-7-colt-keith.html"
+  },
+  {
+    "id": 21,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "khris davis",
+    "card_number": "326",
+    "player_team": "milwaukee brewers",
+    "print_year": "2014",
+    "play_year": "2013",
+    "play_month": "august",
+    "play_day": "3",
+    "teams": ["milwaukee brewers", "washington nationals"],
+    "inning_topbot": "top",
+    "inning": "3",
+    "play_keywords": ["flyout"],
+    "url": "https://www.tptmtc.com/cards/topps/2014/series1/326-khris-davis.html"
   }
 ]
