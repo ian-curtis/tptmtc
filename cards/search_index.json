@@ -372,5 +372,39 @@
     "inning": "3",
     "play_keywords": ["flyout"],
     "url": "https://www.tptmtc.com/cards/topps/2014/series1/326-khris-davis.html"
+  },
+  {
+    "id": 22,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "juan soto",
+    "card_number": "1",
+    "player_team": "san diego padres",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "august",
+    "play_day": "9",
+    "teams": ["san francisco giants", "san diego padres"],
+    "inning_topbot": "bottom",
+    "inning": "8",
+    "play_keywords": ["home run"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/001-juan-soto.html"
+  },
+  {
+    "id": 23,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "bryce harper",
+    "card_number": "3",
+    "player_team": "philadelphia phillies",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "june",
+    "play_day": "5",
+    "teams": ["los angeles angels", "philidelphia phillies"],
+    "inning_topbot": "bottom",
+    "inning": "8",
+    "play_keywords": ["home run", "grand slam"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/003-bryce-harper.html"
   }
 ]
