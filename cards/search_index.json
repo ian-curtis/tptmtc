@@ -508,5 +508,22 @@
     "inning": "7",
     "play_keywords": ["home run", "milestone"],
     "url": "https://www.tptmtc.com/cards/topps/2023/series1/023-fernando-tatis-jr.html"
+  },
+  {
+    "id": 30,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "miguel cabrera",
+    "card_number": "24",
+    "player_team": "detroit tigers",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "april",
+    "play_day": "23",
+    "teams": ["colorado rockies", "detroit tigers"],
+    "inning_topbot": "bottom",
+    "inning": "1",
+    "play_keywords": ["single", "milestone", "celebrate"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/024-miguel-cabrera.html"
   }
 ]
