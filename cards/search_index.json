@@ -525,5 +525,22 @@
     "inning": "1",
     "play_keywords": ["single", "milestone", "celebrate"],
     "url": "https://www.tptmtc.com/cards/topps/2023/series1/024-miguel-cabrera.html"
+  },
+  {
+    "id": 31,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "byron buxton",
+    "card_number": "25",
+    "player_team": "minnesota twins",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "june",
+    "play_day": "25",
+    "teams": ["colorado rockies", "minnesota twins"],
+    "inning_topbot": "bottom",
+    "inning": "1",
+    "play_keywords": ["triple", "rbi"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/025-byron-buxton.html"
   }
 ]
