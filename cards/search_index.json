@@ -542,5 +542,22 @@
     "inning": "1",
     "play_keywords": ["triple", "rbi"],
     "url": "https://www.tptmtc.com/cards/topps/2023/series1/025-byron-buxton.html"
+  },
+  {
+    "id": 32,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "trent grisham",
+    "card_number": "26",
+    "player_team": "san diego padres",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "may",
+    "play_day": "29",
+    "teams": ["pittsburgh pirates", "san diego padres"],
+    "inning_topbot": "bottom",
+    "inning": "10",
+    "play_keywords": ["home run", "walk off"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/026-trent-grisham.html"
   }
 ]
