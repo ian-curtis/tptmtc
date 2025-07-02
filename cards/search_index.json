@@ -557,7 +557,7 @@
     "teams": ["pittsburgh pirates", "san diego padres"],
     "inning_topbot": "bottom",
     "inning": "10",
-    "play_keywords": ["home run", "walk off"],
+    "play_keywords": ["home run", "walk off", "extra innings"],
     "url": "https://www.tptmtc.com/cards/topps/2023/series1/026-trent-grisham.html"
   },
   {
@@ -610,5 +610,56 @@
     "inning": "4",
     "play_keywords": ["double play"],
     "url": "https://www.tptmtc.com/cards/topps/2023/series1/037-josh-smith.html"
+  },
+  {
+    "id": 36,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "brian serven",
+    "card_number": "41",
+    "player_team": "texas rangers",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "june",
+    "play_day": "17",
+    "teams": ["san diego padres", "colorado rockies"],
+    "inning_topbot": "top",
+    "inning": "2",
+    "play_keywords": ["ground out"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/041-brian-serven.html"
+  },
+   {
+    "id": 37,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "franchy cordero",
+    "card_number": "42",
+    "player_team": "boston red sox",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "may",
+    "play_day": "29",
+    "teams": ["baltimore orioles", "boston red sox"],
+    "inning_topbot": "bottom",
+    "inning": "8",
+    "play_keywords": ["double"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/042-franchy-cordero.html"
+  },
+  {
+    "id": 37,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "jorge alfaro",
+    "card_number": "46",
+    "player_team": "san diego padres",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "july",
+    "play_day": "7",
+    "teams": ["san francisco giants", "san diego padres"],
+    "inning_topbot": "bottom",
+    "inning": "10",
+    "play_keywords": ["walk off", "single", "extra innings"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/042-franchy-cordero.html"
   }
 ]
