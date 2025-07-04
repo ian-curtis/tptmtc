@@ -780,5 +780,39 @@
     "inning": "9",
     "play_keywords": ["home run", "postseason", "alcs"],
     "url": "https://www.tptmtc.com/cards/topps/2025/series2/543-kerry-carpenter.html"
+  },
+  {
+    "id": 46,
+    "brand": "topps",
+    "series": "series 2",
+    "player": "zach mckinstry",
+    "card_number": "560",
+    "player_team": "detroit tigers",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "october",
+    "play_day": "10",
+    "teams": ["cleveland guardians", "detroit tigers"],
+    "inning_topbot": "bottom",
+    "inning": "5",
+    "play_keywords": ["home run", "postseason", "alcs"],
+    "url": "https://www.tptmtc.com/cards/topps/2025/series2/560-zach-mckinstry.html"
+  },
+  {
+    "id": 47,
+    "brand": "topps",
+    "series": "series 2",
+    "player": "parker meadows",
+    "card_number": "576",
+    "player_team": "detroit tigers",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "august",
+    "play_day": "18",
+    "teams": ["new york yankees", "detroit tigers"],
+    "inning_topbot": "bottom",
+    "inning": "10",
+    "play_keywords": ["single", "walk off"],
+    "url": "https://www.tptmtc.com/cards/topps/2025/series2/576-parker-meadows.html"
   }
 ]
