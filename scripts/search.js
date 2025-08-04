@@ -12,7 +12,8 @@ const $resultsHeader = document.querySelector('.results_header')
 
 const miniSearch = new MiniSearch({
   fields: ['brand', 'series', 'player', 'card_number', 'player_team', 'print_year', 'play_month', 'teams', 'inning_topbot', 'inning', 'play_keywords'],
-  storeFields: ['brand', 'print_year', 'series', 'player', 'card_number', 'player_team', 'url']
+  storeFields: ['brand', 'print_year', 'series', 'player', 'card_number', 'player_team', 'url'],
+  processTerm: (term) => term.toLowerCase()
 })
 
 
@@ -28,6 +29,7 @@ $searchInput.addEventListener('input', (event) => {
   const query = $searchInput.value
 
   const results = (query.length > 1) ? getSearchResults(query) : []
+  console.log(results)
   
   if (results.length >= 1) $resultsHeader.style.display = "block"
   renderSearchResults(results)
@@ -50,8 +52,15 @@ $searchInput.addEventListener('input', (event) => {
 // Define functions and support variables
 // Change this with other default search options
 const searchOptions = {
-  processTerm: (term) => term.toLowerCase(),
-  fuzzy: 0.2
+  fields: ['brand', 'series', 'player', 'card_number', 'player_team', 'print_year', 'play_month', 'teams', 'inning_topbot', 'inning', 'play_keywords'],
+  combineWith: 'OR',
+  fuzzy: 0.2,
+  boost: {
+    player: 3,
+    player_team: 2,
+    teams: 3,
+    play_keywords: 2
+  }
 }
 
 const getSearchResults = (query) => {
@@ -67,7 +76,8 @@ const renderSearchResults = (results) => {
   
   $cardList.innerHTML = results.map(({ brand, print_year, series, player, card_number, player_team, url }) => {
     return `<li class="card">
-      <h3>${capitalize(brand) + " " + capitalize(print_year) + " " + capitalize(series) + " " + capitalize(player)}</h3>
+      <h3>${capitalize(brand) + " " + print_year + " " + capitalize(series)}</h3>
+      <h3>${capitalize(player)}</h3>
       <dl>
         <dt>Card Number:</dt> <dd>${card_number}</dd>
         <dt>Team:</dt> <dd>${capitalize(player_team)}</dd>
@@ -79,36 +89,49 @@ const renderSearchResults = (results) => {
 }
 
 
-const getSearchOptions = () => {
-  const formData = new FormData($options)
-  const searchOptions = {}
+// const getSearchOptions = () => {
+//   const formData = new FormData($options)
+//   const searchOptions = {}
 
-  const team_filter = formData.get('team_filter')
-  const brand_filter = formData.get('brand_filter')
-  const play_year_filter = parseInt(formData.get('play_year_filter'), 10)
-  const play_month_filter = formData.get('play_month_filter')
-  const play_inning_filter = parseInt(formData.get('play_inning_filter'), 10)
+//   const team_filter = formData.get('team_filter')
+//   const brand_filter = formData.get('brand_filter')
+//   const play_year_filter = parseInt(formData.get('play_year_filter'), 10)
+//   const play_month_filter = formData.get('play_month_filter')
+//   const play_inning_filter = parseInt(formData.get('play_inning_filter'), 10)
 
-  if (team_filter == "all") team_filter = null
-  if (brand_filter == "all") brand_filter = null
-  if (play_year_filter == "all") play_year_filter = null
-  if (play_month_filter == "all") play_month_filter = null
-  if (play_inning_filter == "all") play_inning_filter = null
+//   if (team_filter == "all") team_filter = null
+//   if (brand_filter == "all") brand_filter = null
+//   if (play_year_filter == "all") play_year_filter = null
+//   if (play_month_filter == "all") play_month_filter = null
+//   if (play_inning_filter == "all") play_inning_filter = null
 
 
-  searchOptions.filter = ({ player_team, brand, play_year, play_month, inning}) => {
-    play_year = parseInt(play_year, 10)
-    inning = parseInt(inning, 10)
-    return capitalize(player_team) == team_filter && capitalize(brand) == brand_filter && play_year == play_year_filter && capitalize(play_month) == play_month_filter && inning == play_inning_filter
+//   searchOptions.filter = ({ player_team, brand, play_year, play_month, inning}) => {
+//     play_year = parseInt(play_year, 10)
+//     inning = parseInt(inning, 10)
+//     return capitalize(player_team) == team_filter && capitalize(brand) == brand_filter && play_year == play_year_filter && capitalize(play_month) == play_month_filter && inning == play_inning_filter
+//   }
+
+//   return searchOptions
+// }
+
+
+const capitalize = (input) => {
+  if(!input) return
+
+  if (Array.isArray(input)) {
+    const splitItems = input.map((item) => item.split(" "))
+
+    const capitalizeItems = splitItems.map(item => item.map((word) => word.charAt(0).toUpperCase() + word.slice(1)))
+
+    const joinedCapitalizedItems = capitalizeItems.map((items) => items.join(" "))
+
+    return joinedCapitalizedItems.join(", ")
   }
 
-  return searchOptions
-}
-
-
-const capitalize = (string) => {
-  if(!string) return
-  return string.replace(/(\b\w)/gi, (char) => char.toUpperCase())
+  if (typeof input == "string") {
+    return input.replace(/(\b\w)/gi, (char) => char.toUpperCase())
+  }
 }
 
 

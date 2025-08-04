@@ -700,7 +700,7 @@
     "id": 41,
     "brand": "topps",
     "series": "series 2",
-    "player": ["kerry carpenter", "parker meadows", "trey sweeney", "spencer torkelson"],
+    "player": "c'mere you (checklist)",
     "card_number": "491",
     "player_team": "detroit tigers",
     "print_year": "2025",
@@ -710,14 +710,14 @@
     "teams": ["chicago white sox", "detroit tigers"],
     "inning_topbot": "bottom",
     "inning": "5",
-    "play_keywords": ["grand slam", "checklist"],
+    "play_keywords": ["grand slam", "kerry carpenter", "parker meadows", "trey sweeney", "spencer torkelson"],
     "url": "https://www.tptmtc.com/cards/topps/2025/series2/491-cmere-you-checklist.html"
   },
   {
     "id": 42,
     "brand": "topps",
     "series": "series 2",
-    "player": ["kerry carpenter", "parker meadows", "trey sweeney", "spencer torkelson"],
+    "player": "c'mere you (checklist) (golden mirror)",
     "card_number": "491",
     "player_team": "detroit tigers",
     "print_year": "2025",
@@ -727,7 +727,7 @@
     "teams": ["chicago white sox", "detroit tigers"],
     "inning_topbot": "bottom",
     "inning": "5",
-    "play_keywords": ["grand slam", "checklist", "golden mirror"],
+    "play_keywords": ["grand slam", "golden mirror", "kerry carpenter", "parker meadows", "trey sweeney", "spencer torkelson"],
     "url": "https://www.tptmtc.com/cards/topps/2025/series2/491-cmere-you-checklist-gm.html"
   },
   {
@@ -1295,7 +1295,7 @@
     "id": 76,
     "brand": "topps",
     "series": "series 1",
-    "player": ["julio rodriguez", "abraham toro", "cal raleigh", "jesse winker"],
+    "player": "celebration in seattle (checklist)",
     "card_number": "174",
     "player_team": "seattle mariners",
     "print_year": "2023",
@@ -1305,7 +1305,7 @@
     "teams": ["oakland athletics", "seattle mariners"],
     "inning_topbot": "bottom",
     "inning": "9",
-    "play_keywords": ["walk off", "abraham toro", "single", "checklist"],
+    "play_keywords": ["walk off", "abraham toro", "single", "julio rodriguez", "abraham toro", "cal raleigh", "jesse winker"],
     "url": "https://www.tptmtc.com/cards/topps/2023/series1/174-celebration-in-seattle-checklist.html"
   },
   {
@@ -1358,5 +1358,39 @@
     "inning": "9",
     "play_keywords": ["strikeout"],
     "url": "https://www.tptmtc.com/cards/topps/2023/series1/207-paul-sewald.html"
+  },
+  {
+    "id": 80,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "not bad, rook! (checklist)",
+    "card_number": "210",
+    "player_team": "detroit tigers",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "july",
+    "play_day": "2",
+    "teams": ["kansas city royals", "detroit tigers"],
+    "inning_topbot": "bottom",
+    "inning": "9",
+    "play_keywords": ["walk off", "home run", "miguel cabrera", "riley greene"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/210-not-bad-rook-checklist.html"
+  },
+  {
+    "id": 81,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "next generation (checklist)",
+    "card_number": "216",
+    "player_team": "toronto blue jays",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "june",
+    "play_day": "28",
+    "teams": ["boston red sox", "toronto blue jays"],
+    "inning_topbot": "bottom",
+    "inning": "9",
+    "play_keywords": ["walk off", "single", "vladimir guerrero jr.", "bo bichette"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/216-next-generation-checklist.html"
   }
 ]
