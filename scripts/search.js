@@ -56,10 +56,10 @@ const searchOptions = {
   combineWith: 'OR',
   fuzzy: 0.2,
   boost: {
-    player: 3,
-    player_team: 2,
-    teams: 3,
-    play_keywords: 2
+    player: 4,
+    player_team: 3,
+    teams: 2,
+    play_keywords: 3
   }
 }
 

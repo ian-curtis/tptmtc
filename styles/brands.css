@@ -16,11 +16,17 @@ h2 {
 }
 
 .one-box {
-  margin-bottom: 60px;
+  margin-bottom: 15px;
 }
 
 .boxes li:last-child {
   margin-bottom: 0px
+}
+
+.one-box div {
+  width: 90%;
+  margin: auto;
+  padding: 0;
 }
 
 .boxes a {
@@ -62,15 +68,11 @@ main ol li {
 
   .boxes {
     flex-direction: row;
-    padding-top: 40px;
+    flex-wrap: wrap;
     justify-content: space-around;
-    width: 60%;
     margin: auto;
   }
-
-  .one-box:first-child {
-    margin-top: 0px;
-  }
+  
 }
 
 @media screen and (orientation:portrait) and (min-width: 768px) {
@@ -78,7 +80,7 @@ main ol li {
     padding-top: 20%
   }
 
-  .boxes li {
+  .boxes {
     flex-direction: row;
   }
 }
@@ -110,5 +112,9 @@ main ol li {
   main {
     padding-top: 12%;
     font-size: 24px;
+  }
+
+  .boxes {
+    padding-top: 20px; 
   }
 }
