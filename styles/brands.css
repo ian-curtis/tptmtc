@@ -73,6 +73,10 @@ main ol li {
     margin: auto;
   }
   
+  .one-box:first-child {
+    margin-top: auto;
+  }
+
 }
 
 @media screen and (orientation:portrait) and (min-width: 768px) {
