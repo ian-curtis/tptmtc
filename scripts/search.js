@@ -54,7 +54,7 @@ $searchInput.addEventListener('input', (event) => {
 const searchOptions = {
   fields: ['brand', 'series', 'player', 'card_number', 'player_team', 'print_year', 'play_month', 'teams', 'inning_topbot', 'inning', 'play_keywords'],
   combineWith: 'OR',
-  fuzzy: 0.2,
+  fuzzy: 0.3,
   boost: {
     player: 4,
     player_team: 3,
