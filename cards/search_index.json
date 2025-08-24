@@ -2686,7 +2686,7 @@
     "url": "https://www.tptmtc.com/cards/topps/2021/series2/379-dansby-swanson.html"
   },
   {
-    "id": 157,
+    "id": 158,
     "brand": "topps",
     "series": "series 2",
     "player": "j.P. crawford",
@@ -2703,7 +2703,7 @@
     "url": "https://www.tptmtc.com/cards/topps/2021/series2/380-jp-crawford.html"
   },
   {
-    "id": 158,
+    "id": 159,
     "brand": "topps",
     "series": "series 2",
     "player": "twins team card",
@@ -2852,7 +2852,7 @@
     "teams": ["toronto blue jays", "boston red sox"],
     "inning_topbot": "bottom",
     "inning": "2",
-    "play_keywords": ["at bat", "milestone"],
+    "play_keywords": ["at bat", "milestone", "ta24cards"],
     "url": "https://www.tptmtc.com/cards/topps/2025/series1/092-danny-jansen.html"
   },
   {
@@ -2869,7 +2869,7 @@
     "teams": ["arizona diamondbacks", "san diego padres"],
     "inning_topbot": "top",
     "inning": "1",
-    "play_keywords": ["slide", "scores"],
+    "play_keywords": ["slide", "scores", "ta24cards"],
     "url": "https://www.tptmtc.com/cards/topps/2022/series1/318-josh-reddick.html"
   },
   {
@@ -2886,7 +2886,24 @@
     "teams": ["los angeles angels", "cincinnati reds"],
     "inning_topbot": "bottom",
     "inning": "4",
-    "play_keywords": ["slide", "caught stealing"],
+    "play_keywords": ["slide", "caught stealing", "ta24cards"],
     "url": "https://www.tptmtc.com/cards/topps/2025/series1/150-elly-de-la-cruz.html"
+  },
+  {
+    "id": 170,
+    "brand": "topps",
+    "series": "series 2",
+    "player": "fernando tatis jr.",
+    "card_number": "600",
+    "player_team": "san diego padres",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "september",
+    "play_day": "4",
+    "teams": ["detroit tigers", "san diego padres"],
+    "inning_topbot": "bottom",
+    "inning": "10",
+    "play_keywords": ["single", "walk off", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2025/series2/600-fernando-tatis-jr.html"
   }
 ]
