@@ -2905,5 +2905,22 @@
     "inning": "10",
     "play_keywords": ["single", "walk off", "ta24cards"],
     "url": "https://www.tptmtc.com/cards/topps/2025/series2/600-fernando-tatis-jr.html"
+  },
+  {
+    "id": 171,
+    "brand": "topps",
+    "series": "series 2",
+    "player": "taylor walls",
+    "card_number": "502",
+    "player_team": "tampa bay rays",
+    "print_year": "2025",
+    "play_year": "2024",
+    "play_month": "june",
+    "play_day": "23",
+    "teams": ["tampa bay rays", "pittsburgh pirates"],
+    "inning_topbot": "bottom",
+    "inning": "4",
+    "play_keywords": ["ground out", "fielding", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2025/series2/502-taylor-walls.html"
   }
 ]
