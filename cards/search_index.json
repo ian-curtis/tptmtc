@@ -2666,7 +2666,7 @@
     "inning_topbot": "top",
     "inning": "6",
     "play_keywords": ["strikeout", "pitch"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/378-collin-mchugh.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/378-collin-mchugh.html"
   },
   {
     "id": 157,
@@ -2683,7 +2683,7 @@
     "inning_topbot": "top",
     "inning": "9",
     "play_keywords": ["toss", "double play", "edited"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/379-dansby-swanson.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/379-dansby-swanson.html"
   },
   {
     "id": 158,
@@ -2700,7 +2700,7 @@
     "inning_topbot": "top",
     "inning": "1",
     "play_keywords": ["slide", "scores"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/380-jp-crawford.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/380-jp-crawford.html"
   },
   {
     "id": 159,
@@ -2717,7 +2717,7 @@
     "inning_topbot": "bottom",
     "inning": "9",
     "play_keywords": ["walk off", "home run", "byron buxton"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/382-byron-buxton.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/382-twins-team-card.html"
   },
   {
     "id": 160,
@@ -2734,7 +2734,7 @@
     "inning_topbot": "top",
     "inning": "2",
     "play_keywords": ["double", "edited"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/385-austin-hedges.html"
+    "url": "https://www.tptmtc.com/cards/topps/2021/series3/385-austin-hedges.html"
   },
   {
     "id": 161,
@@ -2751,7 +2751,7 @@
     "inning_topbot": "top",
     "inning": "unknown",
     "play_keywords": ["pitch", "major league debut"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/388-max-meyer.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/388-max-meyer.html"
   },
   {
     "id": 162,
@@ -2768,7 +2768,7 @@
     "inning_topbot": "bottom",
     "inning": "6",
     "play_keywords": ["home run"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/390-bobby-dalbec.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/390-bobby-dalbec.html"
   },
   {
     "id": 163,
@@ -2785,7 +2785,7 @@
     "inning_topbot": "bottom",
     "inning": "unknown",
     "play_keywords": ["at bat", "swing"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/394-kerry-carpenter.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/394-kerry-carpenter.html"
   },
   {
     "id": 164,
@@ -2802,7 +2802,7 @@
     "inning_topbot": "top",
     "inning": "3",
     "play_keywords": ["home run", "milestone",  "major league debut"],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/395-james-outman.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/395-james-outman.html"
   },
   {
     "id": 165,
@@ -2819,7 +2819,7 @@
     "inning_topbot": "top",
     "inning": "1",
     "play_keywords": ["error", "fielder's choice", "mike trout", "vladimir guerrero jr."],
-    "url": "https://www.tptmtc.com/cards/topps/2021/series2/396-superstar-talk-checklist.html"
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/396-superstar-talk-checklist.html"
   },
   {
     "id": 166,
@@ -3454,7 +3454,7 @@
     "id": 203,
     "brand": "topps",
     "series": "series 2",
-    "player": "david ortiz",
+    "player": "david ortiz (short print)",
     "card_number": "595",
     "player_team": "boston red sox",
     "print_year": "2013",
@@ -3665,7 +3665,7 @@
     "play_year": "2021",
     "play_month": "june",
     "play_day": "22",
-    "teams": ["cleveland indians", "chicago cubs"],
+    "teams": ["cleveland guardians", "chicago cubs"],
     "inning_topbot": "bottom",
     "inning": "2",
     "play_keywords": ["flyout", "guardians", "ta24cards"],
@@ -3772,5 +3772,294 @@
     "inning": "6",
     "play_keywords": ["leaping catch", "fielding", "ta24cards"],
     "url": "https://www.tptmtc.com/cards/topps/2017/series1/161-mookie-betts.html"
+  },
+  {
+    "id": 222,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "cal raleigh",
+    "card_number": "122",
+    "player_team": "seattle mariners",
+    "print_year": "2024",
+    "play_year": "2023",
+    "play_month": "august",
+    "play_day": "9",
+    "teams": ["san diego padres", "seattle mariners"],
+    "inning_topbot": "bottom",
+    "inning": "8",
+    "play_keywords": ["home run", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/series1/122-cal-raleigh.html"
+  },
+  {
+    "id": 223,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "willson contreras",
+    "card_number": "296",
+    "player_team": "st. louis cardinals",
+    "print_year": "2024",
+    "play_year": "2023",
+    "play_month": "june",
+    "play_day": "9",
+    "teams": ["cincinnati reds", "st. louis cardinals"],
+    "inning_topbot": "top",
+    "inning": "7",
+    "play_keywords": ["caught stealing", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/series1/296-willson-contreras.html"
+  },
+  {
+    "id": 224,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "randy arozarena",
+    "card_number": "284",
+    "player_team": "tampa bay rays",
+    "print_year": "2024",
+    "play_year": "2023",
+    "play_month": "april",
+    "play_day": "24",
+    "teams": ["houston astros", "tampa bay rays"],
+    "inning_topbot": "bottom",
+    "inning": "6",
+    "play_keywords": ["double", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/series1/284-randy-arozarena.html"
+  },
+  {
+    "id": 225,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "ha-seong kim",
+    "card_number": "127",
+    "player_team": "san diego padres",
+    "print_year": "2024",
+    "play_year": "2023",
+    "play_month": "august",
+    "play_day": "2",
+    "teams": ["san diego padres", "colorado rockies"],
+    "inning_topbot": "top",
+    "inning": "1",
+    "play_keywords": ["home run", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/series1/127-ha-seong-kim.html"
+  },
+  {
+    "id": 226,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "ji hwan bae",
+    "card_number": "160",
+    "player_team": "pittsburgh pirates",
+    "print_year": "2024",
+    "play_year": "2023",
+    "play_month": "may",
+    "play_day": "5",
+    "teams": ["toronto blue jays", "pittsburgh pirates"],
+    "inning_topbot": "bottom",
+    "inning": "1",
+    "play_keywords": ["caught stealing", "baserunning", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/series1/160-ji-hwan-bae.html"
+  },
+  {
+    "id": 227,
+    "brand": "topps",
+    "series": "series 2",
+    "player": "xander bogaerts",
+    "card_number": "476",
+    "player_team": "boston red sox",
+    "print_year": "2021",
+    "play_year": "2020",
+    "play_month": "september",
+    "play_day": "5",
+    "teams": ["toronto blue jays", "boston red sox"],
+    "inning_topbot": "top",
+    "inning": "8",
+    "play_keywords": ["ground out", "throw", "ta24cards", "video"],
+    "url": "https://www.tptmtc.com/cards/topps/2021/series2/476-xander-bogaerts.html"
+  },
+  {
+    "id": 228,
+    "brand": "topps",
+    "series": "series 2",
+    "player": "yan gomes",
+    "card_number": "569",
+    "player_team": "chicago cubs",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "may",
+    "play_day": "21",
+    "teams": ["arizona diamondbacks", "chicago cubs"],
+    "inning_topbot": "top",
+    "inning": "9",
+    "play_keywords": ["ground out", "out at the plate", "catcher", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series2/569-yan-gomes.html"
+  },
+  {
+    "id": 229,
+    "brand": "topps",
+    "series": "update series",
+    "player": "matt strahm",
+    "card_number": "US226",
+    "player_team": "philadelphia phillies",
+    "print_year": "2023",
+    "play_year": "2023",
+    "play_month": "april",
+    "play_day": "10",
+    "teams": ["miami marlins", "philidelphia phillies"],
+    "inning_topbot": "top",
+    "inning": "unknown",
+    "play_keywords": ["pitch", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/update-series/us226-matt-strahm.html"
+  },
+  {
+    "id": 230,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "jasson domínguez",
+    "card_number": "60",
+    "player_team": "new york yankees",
+    "print_year": "2024",
+    "play_year": "2023",
+    "play_month": "september",
+    "play_day": "5",
+    "teams": ["detroit tigers", "new york yankees"],
+    "inning_topbot": "bottom",
+    "inning": "8",
+    "play_keywords": ["double", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/series1/060-jasson-dominguez.html"
+  },
+  {
+    "id": 231,
+    "brand": "topps",
+    "series": "stadium club",
+    "player": "josé ramírez",
+    "card_number": "248",
+    "player_team": "cleveland guardians",
+    "print_year": "2021",
+    "play_year": "2020",
+    "play_month": "september",
+    "play_day": "1",
+    "teams": ["cleveland guardians", "kansas city royals"],
+    "inning_topbot": "top",
+    "inning": "6",
+    "play_keywords": ["diving", "run down", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2021/stadium-club/248-jose-ramirez.html"
+  },
+  {
+    "id": 232,
+    "brand": "topps",
+    "series": "stadium club",
+    "player": "salvador perez",
+    "card_number": "163",
+    "player_team": "kansas city royals",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "april",
+    "play_day": "14",
+    "teams": ["detroit tigers", "kansas city royals"],
+    "inning_topbot": "top",
+    "inning": "6",
+    "play_keywords": ["out at the plate", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/stadium-club/163-salvador-perez.html"
+  },
+  {
+    "id": 233,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "mauricio dubon",
+    "card_number": "326",
+    "player_team": "houston astros",
+    "print_year": "2024",
+    "play_year": "2023",
+    "play_month": "june",
+    "play_day": "13",
+    "teams": ["washington nationals", "houston astros"],
+    "inning_topbot": "top",
+    "inning": "7",
+    "play_keywords": ["jumping", "throw", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/series1/326-mauricio-dubon.html"
+  },
+  {
+    "id": 234,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "brandon nimmo",
+    "card_number": "59",
+    "player_team": "new york mets",
+    "print_year": "2024",
+    "play_year": "2023",
+    "play_month": "may",
+    "play_day": "30",
+    "teams": ["philidelphia phillies", "new york mets"],
+    "inning_topbot": "top",
+    "inning": "4",
+    "play_keywords": ["leaping catch", "home run robbery", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2024/series1/059-brandon-nimmo.html"
+  },
+  {
+    "id": 235,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "sean murphy",
+    "card_number": "309",
+    "player_team": "oakland athletics",
+    "print_year": "2023",
+    "play_year": "2022",
+    "play_month": "june",
+    "play_day": "10",
+    "teams": ["philidelphia phillies", "new york mets"],
+    "inning_topbot": "bottom",
+    "inning": "4",
+    "play_keywords": ["catcher", "ground out", "throw out", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/series1/309-sean-murphy.html"
+  },
+  {
+    "id": 236,
+    "brand": "topps",
+    "series": "stadium club",
+    "player": "tony gwynn",
+    "card_number": "212",
+    "player_team": "san diego padres",
+    "print_year": "2023",
+    "play_year": "1998",
+    "play_month": "october",
+    "play_day": "21",
+    "teams": ["new york yankees", "san diego padres"],
+    "inning_topbot": "postgame",
+    "inning": "none",
+    "play_keywords": ["world series", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2023/stadium-club/212-tony-gwynn.html"
+  },
+  {
+    "id": 237,
+    "brand": "topps",
+    "series": "update series",
+    "player": "charlie culberson",
+    "card_number": "US230",
+    "player_team": "texas rangers",
+    "print_year": "2021",
+    "play_year": "2021",
+    "play_month": "may",
+    "play_day": "1",
+    "teams": ["boston red sox", "texas rangers"],
+    "inning_topbot": "bottom",
+    "inning": "8",
+    "play_keywords": ["double", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2021/update-series/us230-charlie-culberson.html"
+  },
+  {
+    "id": 238,
+    "brand": "topps",
+    "series": "series 1",
+    "player": "bryce harper (short print)",
+    "card_number": "207",
+    "player_team": "washington nationals",
+    "print_year": "2015",
+    "play_year": "2014",
+    "play_month": "october",
+    "play_day": "6",
+    "teams": ["washington nationals", "san francisco giants"],
+    "inning_topbot": "top",
+    "inning": "7",
+    "play_keywords": ["scores", "yelling", "error", "video", "ta24cards"],
+    "url": "https://www.tptmtc.com/cards/topps/2015/series1/207-bryce-harper-sp.html"
   }
 ]
