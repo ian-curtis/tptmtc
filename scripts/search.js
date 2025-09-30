@@ -1,6 +1,5 @@
 // Thank you to the minisearch library for this capability. It wasn't terribly difficult to implement, espeically given I have VERY little experience with JS. 
 // Code here was copy-paste-modified from the code used to make https://lucaong.github.io/minisearch/demo/
-// Starting with search index 22 and onwards, the teams field is in logical order (home team in the second slot)
 
 const $searchInput = document.querySelector('.search input')
 const $search = document.querySelector('.search')
